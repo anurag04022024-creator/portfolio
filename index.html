@@ -269,16 +269,27 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </a>
 </p>
     <form action="https://formsubmit.co/anurag04022024@gmail.com" method="POST" class="contact-form">
+<input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required>
 
-    <input type="text" placeholder="Your Name" required>
+<input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required>
 
-    <input type="email" placeholder="Your Email" required>
+<textarea
+    name="message"
+    rows="6"
+    placeholder="Your Message"
+    required></textarea>
     
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_subject" value="New Portfolio Message">
     <input type="hidden" name="_template" value="table">
-
-    <textarea rows="6" placeholder="Your Message" required></textarea>
 
     <button type="submit" class="btn">
         Send Message
